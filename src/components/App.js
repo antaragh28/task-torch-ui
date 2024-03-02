@@ -1,8 +1,11 @@
 import React from 'react'
+import BacklogContainer from './backlog/BacklogContainer';
 
 const App = () => {
   return (
-    <div>Task Torch UI!</div>
+    <>
+      <BacklogContainer />
+    </>
   )
 }
 

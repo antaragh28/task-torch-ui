@@ -1,4 +1,62 @@
-h1 {
-    color: grey;
-    font-family: cursive;
-  }
+body, html {
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.backlog-header {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.backlog-project-name {
+  color: rgb(110, 110, 110);
+}
+
+.backlog-project-name {
+  margin: 5px 0px;
+}
+
+.view-options {
+  display: flex;
+  align-items: center;
+}
+
+.backlog-heading {
+  margin: 5px 0px;
+  font-weight: 400;
+}
+
+.dropdown-button {
+  display: inline-flex;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2px;
+  margin: 8px;
+}
+
+.dropdown-button:hover {
+  display: inline-flex;
+  background-color: rgb(221, 221, 221);
+  cursor: pointer;
+  border-radius: 2px;
+  margin: 8px;
+}
+
+.dropdown-button-active {
+  display: inline-flex;
+  background-color: rgb(85, 85, 85);
+  cursor: pointer;
+  border-radius: 2px;
+  color: white;
+  margin: 8px;
+}
+
+.dropdown-button-text {
+  font-size: 16px;
+  padding: 8px 0px 8px 8px;
+}
+
+.dropdown-button-icon {
+  margin: 6px 0px;
+}
